@@ -1,0 +1,104 @@
+[1 of 1] Compiling Main             ( /tmp/stack7905/cuda-0.7.0.0/Setup.hs, /tmp/stack7905/cuda-0.7.0.0/.stack-work/dist/x86_64-linux/Cabal-1.24.0.0/setup/Main.o )
+
+/tmp/stack7905/cuda-0.7.0.0/Setup.hs:359:15: Warning:
+    In the use of ‘findProgramLocation’
+    (imported from Distribution.Simple.Utils):
+    Deprecated: "No longer used within Cabal, try findProgramOnSearchPath"
+Linking /tmp/stack7905/cuda-0.7.0.0/.stack-work/dist/x86_64-linux/Cabal-1.24.0.0/setup/setup ...
+Configuring cuda-0.7.0.0...
+Found CUDA toolkit at: /usr/local/cuda
+Storing parameters to cuda.buildinfo.generated
+Using build information from 'cuda.buildinfo.generated'.
+Provide a 'cuda.buildinfo' file to override this behaviour.
+Using build information from 'cuda.buildinfo.generated'.
+Provide a 'cuda.buildinfo' file to override this behaviour.
+Building cuda-0.7.0.0...
+Preprocessing library cuda-0.7.0.0...
+[ 1 of 36] Compiling Foreign.CUDA.Internal.C2HS ( Foreign/CUDA/Internal/C2HS.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Internal/C2HS.o )
+[ 2 of 36] Compiling Foreign.CUDA.Driver.Error ( .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/Error.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/Error.o )
+
+Foreign/CUDA/Driver/Error.chs:37:1: Warning:
+    The import of ‘Foreign.Ptr’ is redundant
+      except perhaps to import instances from ‘Foreign.Ptr’
+    To import instances alone, use: import Foreign.Ptr()
+[ 3 of 36] Compiling Foreign.CUDA.Driver.Utils ( .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/Utils.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/Utils.o )
+[ 4 of 36] Compiling Foreign.CUDA.Runtime.Error ( .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Runtime/Error.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Runtime/Error.o )
+
+Foreign/CUDA/Runtime/Error.chs:36:1: Warning:
+    The import of ‘Foreign.Ptr’ is redundant
+      except perhaps to import instances from ‘Foreign.Ptr’
+    To import instances alone, use: import Foreign.Ptr()
+
+Foreign/CUDA/Runtime/Error.chs:38:1: Warning:
+    The import of ‘System.IO.Unsafe’ is redundant
+      except perhaps to import instances from ‘System.IO.Unsafe’
+    To import instances alone, use: import System.IO.Unsafe()
+[ 5 of 36] Compiling Foreign.CUDA.Runtime.Utils ( .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Runtime/Utils.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Runtime/Utils.o )
+[ 6 of 36] Compiling Foreign.CUDA.Analysis.Device ( .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Analysis/Device.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Analysis/Device.o )
+[ 7 of 36] Compiling Foreign.CUDA.Analysis.Occupancy ( Foreign/CUDA/Analysis/Occupancy.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Analysis/Occupancy.o )
+[ 8 of 36] Compiling Foreign.CUDA.Runtime.Device ( .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Runtime/Device.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Runtime/Device.o )
+
+Foreign/CUDA/Runtime/Device.chs:34:1: Warning:
+    The qualified import of ‘Foreign.ForeignPtr’ is redundant
+      except perhaps to import instances from ‘Foreign.ForeignPtr’
+    To import instances alone, use: import Foreign.ForeignPtr()
+[ 9 of 36] Compiling Foreign.CUDA.Driver.Device ( .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/Device.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/Device.o )
+[10 of 36] Compiling Foreign.CUDA.Driver.Context.Base ( .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/Context/Base.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/Context/Base.o )
+[11 of 36] Compiling Foreign.CUDA.Driver.Context.Peer ( .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/Context/Peer.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/Context/Peer.o )
+[12 of 36] Compiling Foreign.CUDA.Driver.Context.Primary ( .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/Context/Primary.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/Context/Primary.o )
+[13 of 36] Compiling Foreign.CUDA.Driver.Module.Base ( .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/Module/Base.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/Module/Base.o )
+[14 of 36] Compiling Foreign.CUDA.Driver.Module.Link ( .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/Module/Link.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/Module/Link.o )
+[15 of 36] Compiling Foreign.CUDA.Analysis ( Foreign/CUDA/Analysis.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Analysis.o )
+[16 of 36] Compiling Foreign.CUDA.Types ( .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Types.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Types.o )
+[17 of 36] Compiling Foreign.CUDA.Runtime.Event ( .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Runtime/Event.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Runtime/Event.o )
+[18 of 36] Compiling Foreign.CUDA.Runtime.Stream ( .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Runtime/Stream.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Runtime/Stream.o )
+[19 of 36] Compiling Foreign.CUDA.Runtime.Exec ( .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Runtime/Exec.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Runtime/Exec.o )
+
+Foreign/CUDA/Runtime/Exec.chs:24:1: Warning:
+    The qualified import of ‘Foreign.ForeignPtr’ is redundant
+      except perhaps to import instances from ‘Foreign.ForeignPtr’
+    To import instances alone, use: import Foreign.ForeignPtr()
+[20 of 36] Compiling Foreign.CUDA.Driver.Context.Config ( .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/Context/Config.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/Context/Config.o )
+[21 of 36] Compiling Foreign.CUDA.Driver.Context ( Foreign/CUDA/Driver/Context.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/Context.o )
+[22 of 36] Compiling Foreign.CUDA.Driver.Event ( .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/Event.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/Event.o )
+[23 of 36] Compiling Foreign.CUDA.Driver.IPC.Event ( .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/IPC/Event.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/IPC/Event.o )
+
+Foreign/CUDA/Driver/IPC/Event.chs:40:1: Warning:
+    The import of ‘Foreign.Ptr’ is redundant
+      except perhaps to import instances from ‘Foreign.Ptr’
+    To import instances alone, use: import Foreign.Ptr()
+[24 of 36] Compiling Foreign.CUDA.Driver.Stream ( .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/Stream.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/Stream.o )
+[25 of 36] Compiling Foreign.CUDA.Driver.Exec ( .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/Exec.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/Exec.o )
+[26 of 36] Compiling Foreign.CUDA.Ptr ( Foreign/CUDA/Ptr.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Ptr.o )
+[27 of 36] Compiling Foreign.CUDA.Runtime.Marshal ( .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Runtime/Marshal.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Runtime/Marshal.o )
+[28 of 36] Compiling Foreign.CUDA.Runtime.Texture ( .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Runtime/Texture.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Runtime/Texture.o )
+
+Foreign/CUDA/Runtime/Texture.chs:21:1: Warning:
+    The qualified import of ‘Foreign.ForeignPtr’ is redundant
+      except perhaps to import instances from ‘Foreign.ForeignPtr’
+    To import instances alone, use: import Foreign.ForeignPtr()
+[29 of 36] Compiling Foreign.CUDA.Driver.Marshal ( .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/Marshal.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/Marshal.o )
+[30 of 36] Compiling Foreign.CUDA.Driver.IPC.Marshal ( .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/IPC/Marshal.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/IPC/Marshal.o )
+
+Foreign/CUDA/Driver/IPC/Marshal.chs:42:1: Warning:
+    The import of ‘Foreign.Ptr’ is redundant
+      except perhaps to import instances from ‘Foreign.Ptr’
+    To import instances alone, use: import Foreign.Ptr()
+[31 of 36] Compiling Foreign.CUDA.Driver.Texture ( .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/Texture.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/Texture.o )
+[32 of 36] Compiling Foreign.CUDA.Driver.Module.Query ( .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/Module/Query.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/Module/Query.o )
+[33 of 36] Compiling Foreign.CUDA.Driver.Module ( Foreign/CUDA/Driver/Module.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver/Module.o )
+[34 of 36] Compiling Foreign.CUDA.Driver ( Foreign/CUDA/Driver.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Driver.o )
+[35 of 36] Compiling Foreign.CUDA.Runtime ( Foreign/CUDA/Runtime.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA/Runtime.o )
+[36 of 36] Compiling Foreign.CUDA     ( Foreign/CUDA.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foreign/CUDA.o )
+Preprocessing executable 'nvidia-device-query' for cuda-0.7.0.0...
+[1 of 1] Compiling Main             ( examples/src/deviceQueryDrv/DeviceQuery.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/nvidia-device-query/nvidia-device-query-tmp/Main.o )
+Linking .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/nvidia-device-query/nvidia-device-query ...
+Using build information from 'cuda.buildinfo.generated'.
+Provide a 'cuda.buildinfo' file to override this behaviour.
+Installing library in
+/home/pwoh/Dropbox/Thesis/notes/examples-hs/.stack-work/install/x86_64-linux/ghc-7.10.3/7.10.3/lib/x86_64-linux-ghc-7.10.3/cuda-0.7.0.0-7uKApvjKPLRBVfTJ8T8pCp
+Installing executable(s) in
+/home/pwoh/Dropbox/Thesis/notes/examples-hs/.stack-work/install/x86_64-linux/ghc-7.10.3/7.10.3/bin
+Using build information from 'cuda.buildinfo.generated'.
+Provide a 'cuda.buildinfo' file to override this behaviour.
+Registering cuda-0.7.0.0...

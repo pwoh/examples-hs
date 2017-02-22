@@ -1,0 +1,48 @@
+Configuring accelerate-0.15.1.0...
+Building accelerate-0.15.1.0...
+Preprocessing library accelerate-0.15.1.0...
+
+Data/Array/Accelerate/Pretty.hs:3:14: Warning:
+    -XOverlappingInstances is deprecated: instead use per-instance pragmas OVERLAPPING/OVERLAPPABLE/OVERLAPS
+
+Data/Array/Accelerate/Language.hs:1:14: Warning:
+    -XOverlappingInstances is deprecated: instead use per-instance pragmas OVERLAPPING/OVERLAPPABLE/OVERLAPS
+
+Data/Array/Accelerate/Prelude.hs:4:14: Warning:
+    -XOverlappingInstances is deprecated: instead use per-instance pragmas OVERLAPPING/OVERLAPPABLE/OVERLAPS
+
+Data/Array/Accelerate/Trafo/Base.hs:4:14: Warning:
+    -XOverlappingInstances is deprecated: instead use per-instance pragmas OVERLAPPING/OVERLAPPABLE/OVERLAPS
+[ 1 of 30] Compiling Data.Array.Accelerate.Debug ( Data/Array/Accelerate/Debug.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Debug.o )
+[ 2 of 30] Compiling Data.Array.Accelerate.Error ( Data/Array/Accelerate/Error.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Error.o )
+[ 3 of 30] Compiling Data.Array.Accelerate.Type ( Data/Array/Accelerate/Type.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Type.o )
+[ 4 of 30] Compiling Data.Array.Accelerate.Array.Data ( Data/Array/Accelerate/Array/Data.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Array/Data.o )
+[ 5 of 30] Compiling Data.Array.Accelerate.Array.Representation ( Data/Array/Accelerate/Array/Representation.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Array/Representation.o )
+[ 6 of 30] Compiling Data.Array.Accelerate.Array.Sugar ( Data/Array/Accelerate/Array/Sugar.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Array/Sugar.o )
+[ 7 of 30] Compiling Data.Array.Accelerate.Tuple ( Data/Array/Accelerate/Tuple.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Tuple.o )
+[ 8 of 30] Compiling Data.Array.Accelerate.AST ( Data/Array/Accelerate/AST.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/AST.o )
+[ 9 of 30] Compiling Data.Array.Accelerate.Smart ( Data/Array/Accelerate/Smart.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Smart.o )
+[10 of 30] Compiling Data.Array.Accelerate.Language ( Data/Array/Accelerate/Language.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Language.o )
+[11 of 30] Compiling Data.Array.Accelerate.Prelude ( Data/Array/Accelerate/Prelude.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Prelude.o )
+[12 of 30] Compiling Data.Array.Accelerate.Analysis.Match ( Data/Array/Accelerate/Analysis/Match.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Analysis/Match.o )
+[13 of 30] Compiling Data.Array.Accelerate.Analysis.Stencil ( Data/Array/Accelerate/Analysis/Stencil.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Analysis/Stencil.o )
+[14 of 30] Compiling Data.Array.Accelerate.Pretty.Print ( Data/Array/Accelerate/Pretty/Print.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Pretty/Print.o )
+[15 of 30] Compiling Data.Array.Accelerate.Trafo.Substitution ( Data/Array/Accelerate/Trafo/Substitution.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Trafo/Substitution.o )
+[16 of 30] Compiling Data.Array.Accelerate.Trafo.Base ( Data/Array/Accelerate/Trafo/Base.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Trafo/Base.o )
+[17 of 30] Compiling Data.Array.Accelerate.Analysis.Shape ( Data/Array/Accelerate/Analysis/Shape.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Analysis/Shape.o )
+[18 of 30] Compiling Data.Array.Accelerate.Pretty ( Data/Array/Accelerate/Pretty.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Pretty.o )
+[19 of 30] Compiling Data.Array.Accelerate.Trafo.Shrink ( Data/Array/Accelerate/Trafo/Shrink.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Trafo/Shrink.o )
+[20 of 30] Compiling Data.Array.Accelerate.Trafo.Sharing ( Data/Array/Accelerate/Trafo/Sharing.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Trafo/Sharing.o )
+[21 of 30] Compiling Data.Array.Accelerate.Trafo.Rewrite ( Data/Array/Accelerate/Trafo/Rewrite.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Trafo/Rewrite.o )
+[22 of 30] Compiling Data.Array.Accelerate.Pretty.Traverse ( Data/Array/Accelerate/Pretty/Traverse.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Pretty/Traverse.o )
+[23 of 30] Compiling Data.Array.Accelerate.Trafo.Algebra ( Data/Array/Accelerate/Trafo/Algebra.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Trafo/Algebra.o )
+[24 of 30] Compiling Data.Array.Accelerate.Trafo.Simplify ( Data/Array/Accelerate/Trafo/Simplify.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Trafo/Simplify.o )
+[25 of 30] Compiling Data.Array.Accelerate.Trafo.Fusion ( Data/Array/Accelerate/Trafo/Fusion.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Trafo/Fusion.o )
+[26 of 30] Compiling Data.Array.Accelerate.Trafo ( Data/Array/Accelerate/Trafo.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Trafo.o )
+[27 of 30] Compiling Data.Array.Accelerate.Interpreter ( Data/Array/Accelerate/Interpreter.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Interpreter.o )
+[28 of 30] Compiling Data.Array.Accelerate.Analysis.Type ( Data/Array/Accelerate/Analysis/Type.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Analysis/Type.o )
+[29 of 30] Compiling Data.Array.Accelerate ( Data/Array/Accelerate.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate.o )
+[30 of 30] Compiling Data.Array.Accelerate.Data.Complex ( Data/Array/Accelerate/Data/Complex.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Data/Complex.o )
+Installing library in
+/home/pwoh/Dropbox/Thesis/notes/examples-hs/.stack-work/install/x86_64-linux/ghc-7.10.3/7.10.3/lib/x86_64-linux-ghc-7.10.3/accelerate-0.15.1.0-7JwBrAz5LPQAWyy8Y6Vece
+Registering accelerate-0.15.1.0...

@@ -1,0 +1,45 @@
+flags: {}
+extra-package-dbs: []
+packages:
+- '.'
+- location:
+    git: https://github.com/AccelerateHS/accelerate.git
+    commit: b6c1621ce2993b76b858ee2af4aa46b81fe95202
+  extra-dep: true
+extra-deps:
+- accelerate-2.0.0.0
+- accelerate-cuda-0.15.1.1
+- accelerate-utility-0.1.1
+- byteable-0.1.1
+- exception-mtl-0.4.0.1
+- exception-transformers-0.4.0.5
+- fclabels-2.0.3.2
+- hashable-1.2.5.0
+- hashtables-1.2.1.0
+- haskell-src-exts-1.18.2
+- haskell-src-meta-0.7.0.1
+- language-c-quote-0.11.7.1
+- mainland-pretty-0.4.1.4
+- memory-0.14.1
+- mtl-2.2.1
+- old-locale-1.0.0.7
+- old-time-1.1.0.3
+- polyparse-1.12
+- primitive-0.6.1.0
+- random-1.1
+- safe-0.3.13
+- srcloc-0.5.1.0
+- stm-2.4.4.1
+- syb-0.6
+- symbol-0.2.4
+- text-1.2.2.1
+- th-expand-syns-0.4.2.0
+- th-lift-0.7.6
+- th-lift-instances-0.1.11
+- th-orphans-0.13.3
+- th-reify-many-0.1.6
+- transformers-compat-0.5.1.4
+- unordered-containers-0.2.7.2
+- utility-ht-0.0.12
+- vector-0.11.0.0
+resolver: ghc-7.10.3

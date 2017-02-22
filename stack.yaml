@@ -1,0 +1,53 @@
+flags: {}
+extra-package-dbs: []
+packages:
+- '.'
+- location:
+    git: https://github.com/AccelerateHS/accelerate.git
+    commit: 6ad36a2416d584060ba0e6b5f3d63d7af6948edd
+  extra-dep: true
+- location:
+    git: https://github.com/AccelerateHS/accelerate-cuda.git
+    commit: d5c94d0a3876f10f69fa6297cb0f380215a31ed9
+  extra-dep: true
+extra-deps:
+- SafeSemaphore-0.10.1
+- base-orphans-0.5.4
+- byteable-0.1.1
+- cpphs-1.20.3
+- cryptohash-0.11.9
+- cryptonite-0.21
+- cuda-0.7.5.2
+- exception-mtl-0.4.0.1
+- exception-transformers-0.4.0.5
+- exceptions-0.8.3
+- fclabels-2.0.3.2
+- hashable-1.2.5.0
+- hashtables-1.2.1.0
+- haskell-src-exts-1.18.2
+- haskell-src-meta-0.7.0.1
+- language-c-quote-0.11.7.1
+- mainland-pretty-0.4.1.4
+- memory-0.14.1
+- mtl-2.2.1
+- old-locale-1.0.0.7
+- old-time-1.1.0.3
+- polyparse-1.12
+- primitive-0.6.1.0
+- random-1.1
+- safe-0.3.14
+- srcloc-0.5.1.0
+- stm-2.4.4.1
+- syb-0.6
+- symbol-0.2.4
+- text-1.2.2.1
+- th-expand-syns-0.4.2.0
+- th-lift-0.7.6
+- th-lift-instances-0.1.11
+- th-orphans-0.13.3
+- th-reify-many-0.1.6
+- transformers-compat-0.5.1.4
+- unique-0
+- unordered-containers-0.2.7.2
+- vector-0.11.0.0
+resolver: lts-6.30

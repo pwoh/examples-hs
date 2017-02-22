@@ -1,0 +1,188 @@
+
+==================== FINAL INTERFACE ====================
+2017-02-22 03:47:11.739037 UTC
+
+interface main@main:Main 7103
+  interface hash: 9096fd65dfc00ce3f62f9abc1d877680
+  ABI hash: bdbe13a226851bdac55691638b45677f
+  export-list hash: c12c22568b05f93aadbc697b1f4cd12a
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 2b950b53081679af26fc1db3f7230ca0
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Main.main
+module dependencies: ExampleUtil MMultDivConq
+package dependencies: accelerate-cuda-2.0.0.0@24ogKDaAyH037LN7ksKdZb
+                      unique-0@2FNUgyyrAmYKdbrqn3mvvo
+                      SafeSemaphore-0.10.1@4VzDb4ntLXUJnFUrtJ7GGv
+                      hashtables-1.2.1.0@5c7pokIkbR19G5YylDBVyE
+                      cryptonite-0.21@6ag21kspMrFL11QdYwhhfG
+                      safe-0.3.14@7f0vrWinAgM1T5X3bG8j80
+                      unordered-containers-0.2.7.2@7kpSaNdPzsRLLb5cmzUyDm
+                      vector-0.11.0.0@8BOf6P5Y1bBGpVDENdSiRj
+                      mtl-2.2.1@8momq8BEamE2D2td4EjbI6
+                      th-lift-0.7.6@9xi3Mz64ymEJ1vZD0wlTOv
+                      fclabels-2.0.3.2@AKSm13q8hy6IfeajhhiTHQ
+                      primitive-0.6.1.0@AeufGSuwHUhGYOXWgTmkfr
+                      cryptohash-0.11.9@BsOj25FkNUsB2WCYOURHjm
+                      th-lift-instances-0.1.11@CAPyKpnnJW01iJEIF59PP6
+                      stm-2.4.4.1@ChXYRyvniZhC9Q8D3M7IoM
+                      text-1.2.2.1@D2dukXWdd9T8GEonSf7TH1
+                      th-reify-many-0.1.6@DnV1gYvK1Sa9GNLWSZ9jnm
+                      cuda-0.7.5.2@DpZzjWAVMxWIXIVfVw3Wnw
+                      srcloc-0.5.1.0@E34IWRSNMMvAUXGE7eKwOu
+                      exception-transformers-0.4.0.5@EFOF3mYZPV1B50sqUgvYGc
+                      memory-0.14.1@EsLu564AenE6JFSh3lOntv
+                      language-c-quote-0.11.7.1@EztlsnltaU96sTZzaRwW8b
+                      random-1.1@FDxw8MeZdq3EsvcqVWcvl2
+                      th-orphans-0.13.3@GLg6YvDwYjk9ZfbaXwOd0F
+                      accelerate-2.0.0.0@H6SVdIe0K6B5OObFdUZBOL
+                      th-expand-syns-0.4.2.0@HlXlBCX6OId3xMvrbx2dSb
+                      hashable-1.2.5.0@JoeaJ86VQLkKgRy2f7apkO
+                      exceptions-0.8.3@JojInh7ceKU543yZfg90bc
+                      base-orphans-0.5.4@KOTuhQR8R9IE5njByiFjsk
+                      haskell-src-exts-1.18.2@KxawZpp0jKf3R1fyrNIf3M
+                      symbol-0.2.4@LNcZ3H35KMR1al3flLfwIv
+                      mainland-pretty-0.4.1.4@LQuDLP9sEyU5ScH60oerOj
+                      haskell-src-meta-0.7.0.1@LpLuN4V0u3aKg53Ovcg4WG
+                      syb-0.6@LpfDN7WBV29Iko8aejtimy
+                      array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA base-4.8.2.0
+                      binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59
+                      directory-1.2.2.0@direc_0hFG6ZxK1nk4zsyOqbNHfm
+                      filepath-1.4.0.0@filep_Ey7a1in9roBAE8bUFJ5R9m ghc-prim-0.4.0.0
+                      integer-gmp-1.0.0.0 pretty-1.1.2.0@prett_JItwetRppk1H5Uq3xbjDGC
+                      process-1.2.3.0@proce_52AgREEfSrnJLlkGV9YZZJ
+                      template-haskell-2.10.0.0 time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+                      unix-2.7.1.0@unix_KZL8h98IqDM57kQSPo1mKx
+orphans: accelerate-cuda-2.0.0.0@24ogKDaAyH037LN7ksKdZb:Data.Array.Accelerate.CUDA.Array.Remote
+         accelerate-cuda-2.0.0.0@24ogKDaAyH037LN7ksKdZb:Data.Array.Accelerate.CUDA.CodeGen.Monad
+         accelerate-cuda-2.0.0.0@24ogKDaAyH037LN7ksKdZb:Data.Array.Accelerate.CUDA.Execute.Event
+         accelerate-cuda-2.0.0.0@24ogKDaAyH037LN7ksKdZb:Data.Array.Accelerate.CUDA.Persistent
+         vector-0.11.0.0@8BOf6P5Y1bBGpVDENdSiRj:Data.Vector.Fusion.Bundle
+         vector-0.11.0.0@8BOf6P5Y1bBGpVDENdSiRj:Data.Vector.Unboxed
+         th-lift-0.7.6@9xi3Mz64ymEJ1vZD0wlTOv:Language.Haskell.TH.Lift
+         fclabels-2.0.3.2@AKSm13q8hy6IfeajhhiTHQ:Data.Label.Point
+         th-lift-instances-0.1.11@CAPyKpnnJW01iJEIF59PP6:Instances.TH.Lift
+         stm-2.4.4.1@ChXYRyvniZhC9Q8D3M7IoM:Control.Monad.STM
+         text-1.2.2.1@D2dukXWdd9T8GEonSf7TH1:Data.Text
+         text-1.2.2.1@D2dukXWdd9T8GEonSf7TH1:Data.Text.Lazy
+         text-1.2.2.1@D2dukXWdd9T8GEonSf7TH1:Data.Text.Show
+         language-c-quote-0.11.7.1@EztlsnltaU96sTZzaRwW8b:Language.C.Pretty
+         th-orphans-0.13.3@GLg6YvDwYjk9ZfbaXwOd0F:Language.Haskell.TH.Instances
+         accelerate-2.0.0.0@H6SVdIe0K6B5OObFdUZBOL:Data.Array.Accelerate.Classes.Bounded
+         accelerate-2.0.0.0@H6SVdIe0K6B5OObFdUZBOL:Data.Array.Accelerate.Classes.Enum
+         accelerate-2.0.0.0@H6SVdIe0K6B5OObFdUZBOL:Data.Array.Accelerate.Classes.Eq
+         accelerate-2.0.0.0@H6SVdIe0K6B5OObFdUZBOL:Data.Array.Accelerate.Classes.Floating
+         accelerate-2.0.0.0@H6SVdIe0K6B5OObFdUZBOL:Data.Array.Accelerate.Classes.Fractional
+         accelerate-2.0.0.0@H6SVdIe0K6B5OObFdUZBOL:Data.Array.Accelerate.Classes.Integral
+         accelerate-2.0.0.0@H6SVdIe0K6B5OObFdUZBOL:Data.Array.Accelerate.Classes.Num
+         accelerate-2.0.0.0@H6SVdIe0K6B5OObFdUZBOL:Data.Array.Accelerate.Classes.Ord
+         accelerate-2.0.0.0@H6SVdIe0K6B5OObFdUZBOL:Data.Array.Accelerate.Classes.Real
+         accelerate-2.0.0.0@H6SVdIe0K6B5OObFdUZBOL:Data.Array.Accelerate.Classes.RealFloat
+         accelerate-2.0.0.0@H6SVdIe0K6B5OObFdUZBOL:Data.Array.Accelerate.Classes.RealFrac
+         accelerate-2.0.0.0@H6SVdIe0K6B5OObFdUZBOL:Data.Array.Accelerate.Pretty
+         accelerate-2.0.0.0@H6SVdIe0K6B5OObFdUZBOL:Data.Array.Accelerate.Trafo
+         hashable-1.2.5.0@JoeaJ86VQLkKgRy2f7apkO:Data.Hashable.Generic
+         base-orphans-0.5.4@KOTuhQR8R9IE5njByiFjsk:Data.Orphans
+         haskell-src-exts-1.18.2@KxawZpp0jKf3R1fyrNIf3M:Language.Haskell.Exts.Parser
+         syb-0.6@LpfDN7WBV29Iko8aejtimy:Data.Generics.Instances
+         base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Builder
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Calendar.Gregorian
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Format.Parse
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.LocalTime.LocalTime
+         transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF:Control.Monad.Trans.Error
+family instance modules: accelerate-cuda-2.0.0.0@24ogKDaAyH037LN7ksKdZb:Data.Array.Accelerate.CUDA.Array.Prim
+                         accelerate-cuda-2.0.0.0@24ogKDaAyH037LN7ksKdZb:Data.Array.Accelerate.CUDA.Array.Remote
+                         unordered-containers-0.2.7.2@7kpSaNdPzsRLLb5cmzUyDm:Data.HashMap.Base
+                         unordered-containers-0.2.7.2@7kpSaNdPzsRLLb5cmzUyDm:Data.HashSet
+                         vector-0.11.0.0@8BOf6P5Y1bBGpVDENdSiRj:Data.Vector
+                         vector-0.11.0.0@8BOf6P5Y1bBGpVDENdSiRj:Data.Vector.Primitive
+                         vector-0.11.0.0@8BOf6P5Y1bBGpVDENdSiRj:Data.Vector.Storable
+                         vector-0.11.0.0@8BOf6P5Y1bBGpVDENdSiRj:Data.Vector.Unboxed
+                         vector-0.11.0.0@8BOf6P5Y1bBGpVDENdSiRj:Data.Vector.Unboxed.Base
+                         primitive-0.6.1.0@AeufGSuwHUhGYOXWgTmkfr:Control.Monad.Primitive
+                         text-1.2.2.1@D2dukXWdd9T8GEonSf7TH1:Data.Text
+                         text-1.2.2.1@D2dukXWdd9T8GEonSf7TH1:Data.Text.Lazy
+                         accelerate-2.0.0.0@H6SVdIe0K6B5OObFdUZBOL:Data.Array.Accelerate.Array.Data
+                         accelerate-2.0.0.0@H6SVdIe0K6B5OObFdUZBOL:Data.Array.Accelerate.Array.Lifted
+                         accelerate-2.0.0.0@H6SVdIe0K6B5OObFdUZBOL:Data.Array.Accelerate.Array.Representation
+                         accelerate-2.0.0.0@H6SVdIe0K6B5OObFdUZBOL:Data.Array.Accelerate.Array.Sugar
+                         accelerate-2.0.0.0@H6SVdIe0K6B5OObFdUZBOL:Data.Array.Accelerate.Lift
+                         accelerate-2.0.0.0@H6SVdIe0K6B5OObFdUZBOL:Data.Array.Accelerate.Prelude
+                         accelerate-2.0.0.0@H6SVdIe0K6B5OObFdUZBOL:Data.Array.Accelerate.Product
+                         accelerate-2.0.0.0@H6SVdIe0K6B5OObFdUZBOL:Data.Array.Accelerate.Smart
+                         accelerate-2.0.0.0@H6SVdIe0K6B5OObFdUZBOL:Data.Array.Accelerate.Trafo.Base
+                         accelerate-2.0.0.0@H6SVdIe0K6B5OObFdUZBOL:Data.Array.Accelerate.Trafo.Sharing
+                         accelerate-2.0.0.0@H6SVdIe0K6B5OObFdUZBOL:Data.Array.Accelerate.Trafo.Substitution
+                         accelerate-2.0.0.0@H6SVdIe0K6B5OObFdUZBOL:Data.Array.Accelerate.Trafo.Vectorise
+                         accelerate-2.0.0.0@H6SVdIe0K6B5OObFdUZBOL:Data.Array.Accelerate.Type
+                         haskell-src-exts-1.18.2@KxawZpp0jKf3R1fyrNIf3M:Language.Haskell.Exts.SrcLoc
+                         haskell-src-exts-1.18.2@KxawZpp0jKf3R1fyrNIf3M:Language.Haskell.Exts.Syntax
+                         base-4.8.2.0:Control.Applicative base-4.8.2.0:Data.Either
+                         base-4.8.2.0:Data.Functor.Identity base-4.8.2.0:Data.Monoid
+                         base-4.8.2.0:Data.Type.Equality base-4.8.2.0:Data.Void
+                         base-4.8.2.0:GHC.Exts base-4.8.2.0:GHC.Generics
+                         base-4.8.2.0:GHC.TypeLits
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         pretty-1.1.2.0@prett_JItwetRppk1H5Uq3xbjDGC:Text.PrettyPrint.HughesPJ
+                         template-haskell-2.10.0.0:Language.Haskell.TH.Syntax
+import  -/  accelerate-cuda-2.0.0.0@24ogKDaAyH037LN7ksKdZb:Data.Array.Accelerate.CUDA c73cf0bfd3c7967bdb35657ce55da9ba
+import  -/  random-1.1@FDxw8MeZdq3EsvcqVWcvl2:System.Random db7980e946ff6b1eec7dfc3cb2f36882
+import  -/  accelerate-2.0.0.0@H6SVdIe0K6B5OObFdUZBOL:Data.Array.Accelerate 66e0d97f271003a24ae7f909e33d3218
+import  -/  accelerate-2.0.0.0@H6SVdIe0K6B5OObFdUZBOL:Data.Array.Accelerate.Language 577d8aa034409d525b9837ad21e2923b
+import  -/  base-4.8.2.0:Control.Monad 480c5067477275068c9b98be08410df9
+import  -/  base-4.8.2.0:Data.Foldable 2ce969969ad5231eb40bd713f94f05ad
+import  -/  base-4.8.2.0:Data.List 3f0782c8d4bf50eecefcd5ea1798aac8
+import  -/  base-4.8.2.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.2.0:GHC.List 0c736920522bbd14b770342776012ab6
+import  -/  base-4.8.2.0:GHC.Num 9f42750c866f5832ca565146bd660c60
+import  -/  base-4.8.2.0:GHC.Show 0e1d8380a8fb0cfb07ebeda3b70cbf38
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  base-4.8.2.0:System.Environment ba6e36000c8274703cf7786fbe8d0f6c
+import  -/  base-4.8.2.0:System.IO 0248c1e850b7ea124cf7a2e1669ebf67
+import  -/  base-4.8.2.0:Text.Read ef0ef92fb7358ae94bab089940adfd2a
+import  -/  ExampleUtil 79fd3cd62e580ad290c1791149dcb532
+  exports: da997a7ed8f4ca3111c0a8ec240d1298
+  randomlist 4d7f64d82dfd4c9046bd9d76df39e49c
+import  -/  MMultDivConq 26eaf2f1144c8beb5cd3add92b279413
+  exports: 6e276b48c6b404f7ff2b53cf3b25bf09
+  divconq 69aa711e58615fb8edb48a0fd064a661
+  toMatrix 31138797b209ee126461b07fafecf349
+ee6590a2ab0ffaa5074d93f2d3fc4c03
+  main :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+e3bd864fe81295cabb6b36ca45539f6f
+  main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <L,U> -}
+20688fff09df92565d9be8c5f0313411
+  main2 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1
+                   @ ()
+                   Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R))) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

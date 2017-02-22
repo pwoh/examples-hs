@@ -1,0 +1,15 @@
+Configuring accelerate-utility-0.1.1...
+Building accelerate-utility-0.1.1...
+Preprocessing library accelerate-utility-0.1.1...
+[1 of 9] Compiling Data.Array.Accelerate.Utility.Shape ( src/Data/Array/Accelerate/Utility/Shape.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Utility/Shape.o )
+[2 of 9] Compiling Data.Array.Accelerate.Utility.Ord ( src/Data/Array/Accelerate/Utility/Ord.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Utility/Ord.o )
+[3 of 9] Compiling Data.Array.Accelerate.Utility.Arrange ( src/Data/Array/Accelerate/Utility/Arrange.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Utility/Arrange.o )
+[4 of 9] Compiling Data.Array.Accelerate.Utility.Loop ( src/Data/Array/Accelerate/Utility/Loop.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Utility/Loop.o )
+[5 of 9] Compiling Data.Array.Accelerate.Utility.Lift.Exp ( src/Data/Array/Accelerate/Utility/Lift/Exp.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Utility/Lift/Exp.o )
+[6 of 9] Compiling Data.Array.Accelerate.Utility.Sliced ( src/Data/Array/Accelerate/Utility/Sliced.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Utility/Sliced.o )
+[7 of 9] Compiling Data.Array.Accelerate.Utility.Sliced1 ( src/Data/Array/Accelerate/Utility/Sliced1.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Utility/Sliced1.o )
+[8 of 9] Compiling Data.Array.Accelerate.Utility.Lift.Acc ( src/Data/Array/Accelerate/Utility/Lift/Acc.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Utility/Lift/Acc.o )
+[9 of 9] Compiling Data.Array.Accelerate.Utility.Lift.Run ( src/Data/Array/Accelerate/Utility/Lift/Run.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Array/Accelerate/Utility/Lift/Run.o )
+Installing library in
+/home/pwoh/Dropbox/Thesis/notes/examples-hs/.stack-work/install/x86_64-linux/ghc-7.10.3/7.10.3/lib/x86_64-linux-ghc-7.10.3/accelerate-utility-0.1.1-LNi2yM2kami1KRqkM0GH8n
+Registering accelerate-utility-0.1.1...
