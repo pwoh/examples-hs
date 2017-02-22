@@ -18,7 +18,7 @@ main = do
   let times = case (Data.List.length args) of
 	--1 -> 1
 	2 -> read (head (Data.List.tail args)) :: Int
-  replicateM_ times (MMultDivConq.multiplyMMRandom size)
+  replicateM_ times (MMultReplicate.multiplyMMRandom size)
 
 ---XTypeOperators
 -- ghc -threaded --make -XConstraintKinds Main.hs 

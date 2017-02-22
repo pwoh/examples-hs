@@ -1,8 +1,7 @@
 module MMultReplicate (multiplyMMRandom) where
 
-import Lib
-
 import Prelude                                          as P
+import qualified Data.Array.Accelerate.Utility.Lift.Exp as Exp
 import qualified Data.Array.Accelerate as A
 import Data.Array.Accelerate
           (Acc, Array, Exp, Any(Any), All(All), Z(Z), (:.)((:.)))

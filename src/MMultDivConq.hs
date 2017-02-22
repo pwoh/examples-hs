@@ -153,7 +153,7 @@ main = do
 --}
 
 -- bottom out to this or cublas
-mmult :: A.Num e => A.Acc (Matrix e) -> A.Acc (Matrix e) -> A.Acc (Matrix e)
+mmult :: A.Acc (Matrix Double) -> A.Acc (Matrix Double) -> A.Acc (Matrix Double)
 mmult arr brr
   = A.fold (+) 0
    $ A.zipWith (*) arrRepl brrRepl
