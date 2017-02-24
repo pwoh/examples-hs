@@ -6,20 +6,16 @@ import qualified Data.Array.Accelerate as A
 import Data.Array.Accelerate
           (Acc, Array, Exp, Any(Any), All(All), Z(Z), (:.)((:.)))
 import Data.Array.Accelerate.CUDA as AC
-import Data.List
-import Control.Monad
 import System.Random
 import ExampleUtil
---TODO remove unused
 
----XTypeOperators
 --http://bobkonf.de/2015/slides/thielemann.pdf
 
 multiplyMMRandom size = do
   seed <- newStdGen
   let rs = randomlist (size*size) seed
   let test = toMatrix size rs
-  x <- putStr $ (show $ A.arraySize $ A.arrayShape $ AC.run $ multiplyMatrixMatrix test test)
+  x <- putStr $ (show $ AC.run $ multiplyMatrixMatrix test test)
   return ()
 
 type Matrix ix a = A.Acc (Array (ix :. Int :. Int) a)

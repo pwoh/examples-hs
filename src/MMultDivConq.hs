@@ -18,7 +18,7 @@ multiplyMMRandom size = do
   seed <- newStdGen
   let rs = randomlist (size*size) seed
   let test = A.use $ toMatrix size rs
-  x <- putStr $ (show $ A.arraySize $ A.arrayShape $ AC.run $ divconq test test)
+  x <- putStr $ (show $ AC.run $ divconq test test)
   return ()
 
 type Matrix a = Array DIM2 a

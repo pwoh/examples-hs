@@ -1,7 +1,6 @@
 import Prelude                                          as P
 import Data.Array.Accelerate                            as A
 import Data.Array.Accelerate.CUDA as AC
-import System.Random
 import Data.List
 import System.Environment
 import Control.Monad
@@ -10,15 +9,17 @@ import MMultReplicate
 import Dotp
 import ExampleUtil
 
--- 1 arg not valid
--- 2 args the first one is the name of the function, TODO name of function & times to repl, and include dotp with this
+-- "Usage: example-hs [vector or matrix size] [function to run] [times to run]"
 main = do 
-  args <- getArgs
-  let size = read (head args) :: Int
-  let times = case (Data.List.length args) of
-	--1 -> 1
-	2 -> read (head (Data.List.tail args)) :: Int
-  replicateM_ times (MMultReplicate.multiplyMMRandom size)
+  [sizeStr, functionStr, timesStr] <- getArgs
+  let size = read sizeStr :: Int
+  let times = read timesStr :: Int
+  let f = case functionStr of
+        "dotp" -> dotpRandom
+        "mmult_repl" -> MMultReplicate.multiplyMMRandom
+        "mmult_divconq" -> MMultDivConq.multiplyMMRandom --Note this gives a 2x1 instead of 1x1 when the size 1 is used. Bug?
+  replicateM_ times (f size)
 
 ---XTypeOperators
 -- ghc -threaded --make -XConstraintKinds Main.hs 
+-- stack exec examples-hs-exe 2 mmult_repl 1
