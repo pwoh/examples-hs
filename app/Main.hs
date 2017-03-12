@@ -16,7 +16,7 @@ main = do
   let times = read timesStr :: Int
   let f = case functionStr of
         "dotp" -> dotpRandom
-        --"mmult_repl" -> MMultReplicate.multiplyMMRandom
+        "mmult_repl" -> MMultReplicate.multiplyMMRandom
         "mmult_divconq" -> MMultDivConq.multiplyMMRandom --Note this gives a 2x1 instead of 1x1 when the size 1 is used. Bug?
   replicateM_ times (f size)
 
