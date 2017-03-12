@@ -6,7 +6,7 @@
 
 module MMultDivConq (multiplyMMRandom) where
 
-import Prelude                           as P
+import qualified Prelude                           as P
 import Data.Array.Accelerate             as A
 import Data.Array.Accelerate.CUDA as AC
 import System.Random
@@ -18,8 +18,8 @@ multiplyMMRandom size = do
   seed <- newStdGen
   let rs = randomlist (size*size) seed
   let test = A.use $ toMatrix size rs
-  x <- putStr $ (show $ AC.run $ divconq test test)
-  return ()
+  x <- P.putStr $ (P.show $ AC.run $ divconq test test)
+  P.return ()
 
 type Matrix a = Array DIM2 a
 
@@ -35,12 +35,12 @@ toMatrix size rs = A.fromList (Z :. size :. size) $ rs
 divconq :: Acc (Matrix Double) -> Acc (Matrix Double) -> Acc (Matrix Double)
 divconq a b =
     let v = max' n m1 p
-    in acond (v ==* n)
+    in acond (v == n)
        (let (a1,a2) = splitHoriz a
             a1b     = mmult a1 b
             a2b     = mmult a2 b
         in concatHoriz a1b a2b)
-       (acond (v ==* p)
+       (acond (v == p)
         (let (b1,b2) = splitVert b
              ab1 = mmult a b1
              ab2 = mmult a b2
@@ -75,9 +75,9 @@ strassen a b = concatFour c11 c12 c21 c22
 
 max' :: Exp Int -> Exp Int -> Exp Int -> Exp Int
 max' a b c =
-    cond (a >* b)
-             (cond (a >* c) a c)
-             (cond (b >* c) b c)
+    cond (a > b)
+             (cond (a > c) a c)
+             (cond (b > c) b c)
 
 splitHoriz :: Acc (Matrix Double) -> (Acc (Matrix Double), Acc (Matrix Double))
 splitHoriz arr = (generate sh1 f1, generate sh2 f2)
@@ -131,7 +131,7 @@ concatHoriz :: Acc (Matrix Double) -> Acc (Matrix Double) -> Acc (Matrix Double)
 concatHoriz a b = generate sh f
     where sh = lift $ Z :. (ma + mb) :. na
           f i = let Z :. (mi :: Exp Int) :. (ni :: Exp Int) = unlift i
-                in lift (mi A.<* ma) ?
+                in lift (mi A.< ma) ?
                        ((a ! i),
                         (b ! (lift $ Z :. (mi - ma) :. ni)))
           Z :. (ma :: Exp Int) :. (na :: Exp Int) = unlift (shape a)

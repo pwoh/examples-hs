@@ -38,7 +38,7 @@ transpose m =
       m
 
 multiplyMatrixMatrix ::
-   (A.Shape ix, A.Slice ix, A.IsNum a, A.Elt a) =>
+   (A.Shape ix, A.Slice ix, A.Num a, A.Elt a) =>
    Matrix ix a -> Matrix ix a -> Matrix ix a
 multiplyMatrixMatrix x y =
    case (matrixShape x, matrixShape y) of
