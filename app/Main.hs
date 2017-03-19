@@ -9,12 +9,13 @@ import MMultReplicate
 import Dotp
 import ExampleUtil
 
--- "Usage: example-hs [vector or matrix size] [function to run] [times to run]"
+-- "Usage: example-hs [vector or matrix size] [times to run] [function to run]"
 main = do 
-  [sizeStr, functionStr, timesStr] <- getArgs
+  [sizeStr, timesStr, functionStr] <- getArgs
   let size = read sizeStr :: Int
   let times = read timesStr :: Int
   let f = case functionStr of
+        "noop" -> noop
         "dotp" -> dotpRandom
         "mmult_repl" -> MMultReplicate.multiplyMMRandom
         "mmult_divconq" -> MMultDivConq.multiplyMMRandom --Note this gives a 2x1 instead of 1x1 when the size 1 is used. Bug?
