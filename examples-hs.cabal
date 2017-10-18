@@ -15,7 +15,7 @@ cabal-version:       >=1.10
 
 library
   hs-source-dirs:      src
-  exposed-modules:     MMultReplicate, MMultDivConq, Dotp, ExampleUtil
+  exposed-modules:     MMultReplicate, MMultDivConq, Dotp, ExampleUtil, Saxpy, BlackScholes
   extensions:          TypeOperators, FlexibleContexts, ScopedTypeVariables, TypeFamilies, ConstraintKinds
   build-depends:       base >= 4.7 && < 4.9
                      , accelerate
